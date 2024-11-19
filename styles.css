@@ -1,0 +1,28 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#board{
+    display: flex;
+    flex-wrap: wrap;
+    width:470px;
+}
+.cell {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #dddddd;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 3.5em; 
+}
+
+button{
+    background-color: transparent;
+    padding: 8px;
+    margin-top: 15px;
+    font-size: 20px;
+}
